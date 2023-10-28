@@ -17,4 +17,12 @@ public class Coupon {
     public int getDiscountValueInPercents() {
         return discountValueInPercents;
     }
+
+    @Override
+    public String toString() {
+        return "Coupon{" +
+                "category=" + category +
+                ", discountValueInPercents=" + discountValueInPercents +
+                '}';
+    }
 }
